@@ -11,6 +11,6 @@ def emptryLine(nameFile):
     print(f"Stock line number is {len(lines) - emptryLineCount}")
 
 if len(argv) == 2:
-    emptryLine(argv[1])
+    emptryLine(argv[2])
 else:
     emptryLine(input("Name of file:\n"))
